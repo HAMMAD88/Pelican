@@ -1,0 +1,39 @@
+# Ignore all DLL files
+*.dll
+
+# Ignore all EXE files
+*.exe
+
+# Ignore VS temporary files and folders
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore bin and obj folders
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Ignore specific file types
+*.pdb
+*.gz
+*.wasm
+*.js.map
+
+# Ignore files from wwwroot/_framework
+website.Client/bin/Debug/net9.0/wwwroot/_framework/
+website.Client/obj/Debug/net9.0/compressed/
+website/obj/Debug/net9.0/compressed/
+
+# Ignore everything in website.Client/bin and website/bin
+website.Client/bin/
+website/bin/
+
+# Ignore specific cache files
+.vs/website/DesignTimeBuild/
+.vs/website/FileContentIndex/
+.vs/website/v17/
